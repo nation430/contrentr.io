@@ -67,4 +67,12 @@ body {
           justify-content: flex-end;
   padding-right: 30px;
 }
+
+.shot-divider {
+  width: 80%;
+  height: 1px;
+  background: #E6E7E9;
+  opacity: 0.2;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=dashboard.css.map */
