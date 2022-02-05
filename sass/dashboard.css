@@ -22,8 +22,9 @@ body {
  
 }
 
+
 aside{
-    background: #083430;;
+    background: #083430;
     position: fixed;
     z-index: 10032;
     /* box-shadow: 0px 0px 5px rgba(18, 23, 39, 0.5); */
@@ -169,12 +170,89 @@ color: #c1c1c1;
 }
 /* end of notification mega-dropdown */
 
-/* modal */
+/* portfolio aside */
+
+.aside-icons:hover{
+  color:white !important
+}
+
+
+/* end of portfolio aside */
 
 
 
+/* portfolio aside hover effect */
 
-/* end of modal */
+.child {
+  display: none;
+ padding-left:2rem;
+}
+
+.parent:hover .child {
+  display: block;
+}
+
+/* color-lines */
+
+.first-line{
+  position: relative;
+  margin-left: -56px;
+  margin-right: -8px;
+  top:0px;
+}
+
+
+.second-line{
+  bottom: 25px;
+  left: 47px;
+}
+/* end of color-lines */
+
+.hover-trigger .hover-target {
+    display: none;
+    margin-top: -42px;
+    background: #DCF6F3;
+}
+
+.hover-trigger:hover .hover-target {
+    display: block;
+}
+
+
+.hover-trigger2 .hover-target2 {
+  display: none;
+  margin-left: 56px;
+  background: #DCF6F3;
+  border:0px  solid red;
+  
+}
+
+.hover-trigger2:hover .hover-target2 {
+  display: block;
+}
+
+.hover-trigger3 .hover-target3 {
+  display: none;
+  margin-left: 56px;
+}
+
+.hover-trigger3:hover .hover-target3 {
+  display: block;
+  
+}
+
+
+.hover-trigger4 .hover-target4 {
+  display: none;
+  margin-left: 63px;
+  margin-top:-40px;
+  background: #DCF6F3;
+}
+
+.hover-trigger4:hover .hover-target4 {
+  display: block;
+}
+/* end of portfolio aside hover effect */
 
 @media (max-width: 640px) {
   body > aside,
